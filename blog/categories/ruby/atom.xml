@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Tim's Sandbox]]></title>
-  <link href="http://tlayne.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Ruby | Tim's Sandbox]]></title>
+  <link href="http://tlayne.github.io/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://tlayne.github.io/"/>
   <updated>2014-03-28T03:48:02+00:00</updated>
   <id>http://tlayne.github.io/</id>
