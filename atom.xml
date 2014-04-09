@@ -4,7 +4,7 @@
   <title><![CDATA[Tim's Sandbox]]></title>
   <link href="http://tlayne.github.io/atom.xml" rel="self"/>
   <link href="http://tlayne.github.io/"/>
-  <updated>2014-04-09T05:57:56+00:00</updated>
+  <updated>2014-04-09T06:04:58+00:00</updated>
   <id>http://tlayne.github.io/</id>
   <author>
     <name><![CDATA[Tim]]></name>
@@ -42,7 +42,7 @@
 
 <p>This should beam a fresh copy of Octopress directly into your Nitrous.IO box. Click the root (represented by “~”) in the file tree on the left a couple of times and you should see your newly created Octopress folder.</p>
 
-<p><img src="http://timothysmith.me/images/screenshots/nitrous2.png/920/457" title="nitrous IDE" ></p>
+<p><img src="http://timothysmith.me/images/screenshots/nitrous2.png" width="920" height="457" title="nitrous IDE" ></p>
 
 <p>Click on the console window near the bottom again and enter the following commands.</p>
 
@@ -89,7 +89,7 @@ git push origin source
 
 <p>In a matter of minutes you should be able to point your browser to your GitHub pages URL and check out all your hard work.</p>
 
-<p><img src="http://timothysmith.me/images/screenshots/octoexample1.png/920/540" title="generic Octopress install" ></p>
+<p><img src="http://timothysmith.me/images/screenshots/octoexample1.png" width="920" height="540" title="generic Octopress install" ></p>
 
 <h2>Additional Resources</h2>
 
