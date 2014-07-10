@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://tlayne.github.io/sitemap.xml 
