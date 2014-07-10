@@ -11,7 +11,7 @@ div.icon-bar {
  border: solid 4px rgba(0, 0, 0, 0.025);
 }
 
-.code {
+code {
  line-height: 1.1;
  margin-bottom: 11px;
 }
