@@ -1,26 +1,9 @@
-<!doctype html>
-<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
-<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
-<head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>{{page.title}}</title>
-<meta name="description" content="Documentation and reference library for ZURB Foundation. JavaScript, CSS, components, grid and more."/>
-<meta name="author" content="ZURB, inc. ZURB network also includes zurb.com"/>
-<meta name="copyright" content="ZURB, inc. Copyright (c) 2013"/>
-<link rel="stylesheet" href="/css/foundation.css"/>
-<link rel="stylesheet" href="/css/custom.css"/>
-<link rel="stylesheet" href="/css/normalize.css"/>
-<link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
-<script src="/js/vendor/modernizr.js"></script>
-</head>
-    
-<body>
-<div class="row" style="padding-top: 38px">
-    <div class="large-3 columns text-center"><h2 style="font-family: 'Anton', sans-serif;">Tim's Blog</h2></div>
-</div> 
+---
+layout: default
+---
+
 <div class="row">
-<aside class="large-3 columns">
+<!-- <aside class="large-3 columns">
 <div class="show-for-large-up th"><img src="http://placehold.it/211x175"></div>
 <div class="icon-bar three-up" style="margin-top: 10px;">
   <a class="item" href="https://twitter.com/tlaynes">
@@ -37,57 +20,10 @@
 <li><a href="/index.html">Home</a></li>
 <li><a href="/archive/">Archive</a></li>
 </ul>
-</aside>
+</aside> -->
 <div class="large-8 columns text-left">
 <div class="show-for-large-up" style="margin-top:102px;"></div>
 <h3 style="margin-bottom:10px;">{{page.title}}</h3>
 <p>{{ content }}</p>   
 </div>
 </div>
-    
-<div class="row">
-<div class="large-3 columns">
-<!-- bottom sidebar content -->
-</div>
-<div class="large-8 columns">
-<a href="https://twitter.com/intent/tweet?screen_name=tlaynes" class="twitter-mention-button" data-lang="en" data-size="large" data-text="Comment - timothysmith.me{{page.url}}">Comment on Twitter</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-<div class="g-plusone"></div>
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/platform.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>    
-</div>  
-</div>
-    
-<footer class="row">
-<div class="large-12 columns">
-<hr/>
-<div class="row">
-<div class="large-6 columns">
-<p>&copy; Timothy Smith.</p>
-</div>
-<div class="large-6 columns">
-<!-- <ul class="inline-list right">
-<li><a href="#">Link 1</a></li>
-<li><a href="#">Link 2</a></li>
-<li><a href="#">Link 3</a></li>
-<li><a href="#">Link 4</a></li>
-</ul> -->
-</div>
-</div>
-</div>
-</footer>
-<script src="/js/vendor/jquery.js"></script>
-<script src="/js/foundation.min.js"></script>
-<script>
-      $(document).foundation();
-
-      var doc = document.documentElement;
-      doc.setAttribute('data-useragent', navigator.userAgent);
-    </script>
-</body>
-</html>
