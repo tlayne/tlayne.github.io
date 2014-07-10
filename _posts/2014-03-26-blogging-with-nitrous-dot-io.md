@@ -11,7 +11,7 @@ I have a very fickle relationship with blogging. I love tweaking and testing the
 but when it comes time to write content I'm already fawning over a new platform.
 I am notorious among my circle of friends for building these things and then letting them
 collect digital dust until they are inevitably scrapped. About a year ago I was surfing
-around and happened upon [Octopress](http://octopress.org). I was instantly enamored by the possibilities it offered.<!-- more -->
+around and happened upon [Octopress](http://octopress.org). I was instantly enamored by the possibilities it offered.
 
 Since everyone and even some of their mothers have already made a strong case for why static
 site generators are the future of personal blogging, I'm not going to dedicate this entire

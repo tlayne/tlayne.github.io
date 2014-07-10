@@ -2,12 +2,11 @@
 layout: post
 title: Create a Static Blog with Cloud Access
 date: 2014-04-09 05:10:53 +0000
-comments: true
 tags: [tutorials, octopress, github]
-category: test
+category: development
 published: true
 ---
-I mentioned in my previous post that I would write a quick and dirty tutorial on how to obtain a blogging setup similar to my own. After following the steps in this post you should have your very own static Octopress blog that you can edit painlessly in the cloud via Nitrous.IO<!-- more -->
+I mentioned in my previous post that I would write a quick and dirty tutorial on how to obtain a blogging setup similar to my own. After following the steps in this post you should have your very own static Octopress blog that you can edit painlessly in the cloud via Nitrous.IO
 
 ##Register and Link Accounts
 
