@@ -35,12 +35,10 @@ This should beam a fresh copy of Octopress directly into your Nitrous.IO box. Cl
 
 Click on the console window near the bottom again and enter the following commands.
 
-```
-cd octopress
-gem install bundler
-bundle install
-rake install
-```
+    cd octopress
+    gem install bundler
+    bundle install
+    rake install
 
 Congratulations, you now have Octopress and all it depends on.
 

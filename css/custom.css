@@ -10,3 +10,8 @@ div.icon-bar {
  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
  border: solid 4px rgba(0, 0, 0, 0.025);
 }
+
+.code {
+ line-height: 1.1;
+ margin-bottom: 11px;
+}
