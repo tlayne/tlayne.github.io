@@ -13,5 +13,8 @@ div.icon-bar {
 
 code {
  line-height: 1.1;
- margin-bottom: 11px;
+}
+
+pre {
+ margin-bottom: 11px;   
 }
