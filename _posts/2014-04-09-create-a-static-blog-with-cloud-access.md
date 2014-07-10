@@ -14,6 +14,7 @@ First you will need to register for a free GitHub account [here](https://github.
 
     username.github.io
 
+
 Where the “username” portion is your actual username. Leave the “public” radio button ticked and click create. Leave this tab open in your browser for easy access later!
 
 Now jump over to Nitrous.IO and open your dashboard for the first time. You will have several options, but for this tutorial we will need the Ruby/Rails template. Select the template, fill in the name and region for your box, and click the “Create Box” button. On the next page select “Connect GitHub” and authorize the app in order to make your life easier.  If you so desire you can link up several of your other social accounts in order to beef up your free box, but you won’t need much juice to run Octopress.
@@ -26,9 +27,11 @@ Click on the console window near the bottom and enter the following command:
 
     git clone https://github.com/imathis/octopress.git
 
+
 This should beam a fresh copy of Octopress directly into your Nitrous.IO box. Click the root (represented by “~”) in the file tree on the left a couple of times and you should see your newly created Octopress folder.
 
 <div class="th"><img src="http://timothysmith.me/images/screenshots/nitrous2.png"></div>
+
 
 Click on the console window near the bottom again and enter the following commands.
 
@@ -36,6 +39,7 @@ Click on the console window near the bottom again and enter the following comman
     gem install bundler
     bundle install
     rake install
+
 
 Congratulations, you now have Octopress and all it depends on.
 
@@ -46,20 +50,24 @@ We need to get this thing onto your GitHub pages account ASAP. First enter the f
     git config --global user.email youremail
     git config --global user.name yourname
 
+
 Where “youremail” is your actual email address registered with GitHub and “yourname” is your actual GitHub username.
 
 Now we can use the handy Octopress configuration task to automate the rest of the setup. Use the following command in the console to get started:
 
     rake setup_github_pages
 
+
 You should be prompted for your repository URL. Remember that tab I told you to leave open way back when? Check it for your repository URL, and enter it into the prompt. It should look something like this:
 
     https://github.com/username/username.github.io.git
+
 
 You’re almost done! There are a few more commands you need to run before you have your very own Octopress blog.
 
     rake generate
     rake deploy
+
 
 When “rake deploy” asks for your credentials enter your GitHub user information. The password field will be a little tricky because it won’t show what you’re typing. Now backup all your hard work with the following git commands in your console:
 
@@ -67,9 +75,11 @@ When “rake deploy” asks for your credentials enter your GitHub user informat
     git commit -m ‘Initial deploy’
     git push origin source
 
+
 In a matter of minutes you should be able to point your browser to your GitHub pages URL and check out all your hard work.
 
 <div class="th"><img src="http://timothysmith.me/images/screenshots/octoexample1.png"></div>
+
 
 ##Additional Resources
 

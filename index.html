@@ -2,11 +2,9 @@
 layout: default
 title: Timothy Smith
 ---
-<div class="show-for-large-up" style="margin-top:102px;"></div>
-<ul>
+<!-- <div class="show-for-large-up" style="margin-top:102px;"></div> -->
+
 {% for post in site.posts limit: 10 %}
-<li><h2 style="font-size:1.3em;">
-<a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</h2> {{ post.date | date_to_string }}</a>
-</li>
+<h2 style="font-size:1.3em;">
+<a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</h2></a>{{ post.date | date_to_string }}
 {% endfor %}
-</ul>
