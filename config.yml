@@ -1,0 +1,10 @@
+port: 4000
+auto: true
+safe: true
+server: true
+title: 'Yes We Jekyll'
+exclude: ['LICENSE', 'README.md', 'CNAME']
+description: 'A simple Jekyll implementation for personal blogs'
+permalink: pretty
+url: tshroom.github.io
+markdown: kramdown

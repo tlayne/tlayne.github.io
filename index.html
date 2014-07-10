@@ -1,0 +1,11 @@
+---
+layout: default
+title: Blog Name
+---
+
+{% for post in site.posts offset: 0 limit: 10 %}
+    <h2 style="font-size:1.3em;">
+        <a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    {{ post.date | date_to_string }}
+{% endfor %}
