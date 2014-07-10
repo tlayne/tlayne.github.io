@@ -28,7 +28,7 @@ Click on the console window near the bottom and enter the following command:
 
 This should beam a fresh copy of Octopress directly into your Nitrous.IO box. Click the root (represented by “~”) in the file tree on the left a couple of times and you should see your newly created Octopress folder.
 
-{% img http://timothysmith.me/images/screenshots/nitrous2.png/920/457 nitrous IDE %}
+<div class="th"><img src="http://timothysmith.me/images/screenshots/nitrous2.png"></div>
 
 Click on the console window near the bottom again and enter the following commands.
 
@@ -69,7 +69,7 @@ When “rake deploy” asks for your credentials enter your GitHub user informat
 
 In a matter of minutes you should be able to point your browser to your GitHub pages URL and check out all your hard work.
 
-{% img http://timothysmith.me/images/screenshots/octoexample1.png/920/540 generic Octopress install %}
+<div class="th"><img src="http://timothysmith.me/images/screenshots/octoexample1.png"></div>
 
 ##Additional Resources
 
