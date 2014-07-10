@@ -5,6 +5,5 @@ title: Timothy Smith
 <!-- <div class="show-for-large-up" style="margin-top:102px;"></div> -->
 
 {% for post in site.posts limit: 15 %}
-<h2>
-<a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</h2></a>{{ post.date | date_to_string }}
+<h4><a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</h4></a>{{ post.date | date_to_string }}
 {% endfor %}
