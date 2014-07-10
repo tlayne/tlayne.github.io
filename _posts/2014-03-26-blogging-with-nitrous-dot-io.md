@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blogging with Nitrous.IO and Octopress
-date: 2014-03-26 22:26:58 +0000
+date: 2014-03-26
 category: development
 tags: [github, ruby, nitrous, octopress]
 published: true

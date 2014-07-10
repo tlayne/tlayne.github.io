@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Create a Static Blog with Cloud Access
-date: 2014-04-09 05:10:53 +0000
+date: 2014-04-09
 tags: [tutorials, octopress, github]
 category: development
 published: true
