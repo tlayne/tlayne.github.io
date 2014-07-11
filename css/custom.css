@@ -18,3 +18,7 @@ code {
 pre {
  margin-bottom: 11px;   
 }
+
+.tubed {
+ border-radius: 25%;
+}
