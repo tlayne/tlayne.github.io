@@ -6,9 +6,9 @@ tags: [tutorials, octopress, github]
 category: development
 published: true
 ---
-##UPDATE:
+###UPDATE:
 
-    I am no longer using this method for my personal blog. It is still a valid method, but now I favor posting directly     from GitHub. The baked in Jekyll features are more than enough for my needs, and the web based code editor allows me     to update from any web browser.
+I am no longer using this method for my personal blog. It is still a valid method, but now I favor posting directly from GitHub. The baked in Jekyll features are more than enough for my needs, and the web based code editor allows me to update from any web browser.
 
 I mentioned in my previous post that I would write a quick and dirty tutorial on how to obtain a blogging setup similar to my own. After following the steps in this post you should have your very own static Octopress blog that you can edit painlessly in the cloud via Nitrous.IO
 
