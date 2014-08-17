@@ -6,13 +6,11 @@ tags: [tutorials, octopress, github]
 category: development
 published: true
 ---
-###UPDATE:
-
-I am no longer using this method for my personal blog. It is still a valid method, but now I favor posting directly from GitHub. The baked in Jekyll features are more than enough for my needs, and the web based code editor allows me to update from any web browser.
-
-I mentioned in my previous post that I would write a quick and dirty tutorial on how to obtain a blogging setup similar to my own. After following the steps in this post you should have your very own static Octopress blog that you can edit painlessly in the cloud via Nitrous.IO
+####UPDATE: I am no longer using this method for my personal blog. It is still a valid tutorial, but currently I'm posting directly from GitHub. The baked in Jekyll features are more than enough for my needs, and the web based code editor allows me to update from any web browser.
 
 ##Register and Link Accounts
+
+I mentioned in my previous post that I would write a quick and dirty tutorial on how to obtain a blogging setup similar to my own. After following the steps in this post you should have your very own static Octopress blog that you can edit painlessly in the cloud via Nitrous.IO
 
 First you will need to register for a free GitHub account [here](https://github.com/), and a free Nitrous.IO account [here](https://www.nitrous.io/join/VGB0M15fkh8?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral). Be sure to verify your email address with both services, or you will have trouble later on in this tutorial. Once you are signed into GitHub click the “New Repository” button and enter the following into the “Repository name” field:
 
