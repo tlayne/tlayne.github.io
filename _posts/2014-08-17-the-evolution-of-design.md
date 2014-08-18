@@ -3,7 +3,7 @@ layout: post
 title: The Evolution of Design
 category: Creative
 tags: [design, photoshop]
-published: false
+published: true
 ---
 
 Fair warning, I do not have an eye for design. I actually struggle when trying to design anything visual, but from time to time my career requires a bit of design work. Recently I was tasked with creating a simple web banner for an online course. I'm not actually sure if it will ever get used, so I wanted to show it off and talk a little about the process.
