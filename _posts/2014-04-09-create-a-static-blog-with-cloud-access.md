@@ -6,7 +6,9 @@ tags: [tutorials, octopress, github]
 category: development
 published: true
 ---
-####UPDATE: I am no longer using this method for my personal blog. It is still a valid tutorial, but currently I'm posting directly from GitHub. The baked in Jekyll features are more than enough for my needs, and the web based code editor allows me to update from any web browser.
+#####UPDATE: 
+
+*I am no longer using this method for my personal blog. It is still a valid tutorial, but currently I'm posting directly from GitHub. The baked in Jekyll features are more than enough for my needs, and the web based code editor allows me to update from any web browser.*
 
 ##Register and Link Accounts
 
