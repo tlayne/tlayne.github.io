@@ -10,7 +10,7 @@ Fair warning, I do not have an eye for design. I actually struggle when trying t
 
 ####A Rough Beginning
 
-<div class="th"><img src="/images/social_chalk_rough.jpg"></div>
+<div class="th" style="margin: 0 auto;"><img src="/images/social_chalk_rough.jpg"></div><p></p>
 
 I started with the simple idea of using a chalkboard effect and brushed up on my Photoshop skills with [this tutorial](http://sweetcsdesigns.com/make-a-chalkboard-effect-in-photoshop/). I came up with something in my head that I thought would be rad, but when it actually materialized I was more than a little underwhelmed. The effect was nice, but I needed to phone in some help on the layout.
 
