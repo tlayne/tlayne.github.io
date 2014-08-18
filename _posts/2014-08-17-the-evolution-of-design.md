@@ -16,7 +16,7 @@ I started with the simple idea of using a chalkboard effect and brushed up on my
 
 ####Something Forms
 
-Once again, like countless other times, my wife comes to the rescue. I sent her a picture of the design and asked how she felt about it. She danced around the truth for a few minutes trying to spare my feelings, and then she told me straight up, "It confuses me." I tried to defend my design and gave her a rough idea of what I was going for. She did concede that it looked like a chalk board, but we both agreed it needed some work. She chatted me some ideas: sweet banner at the top, cool underline for social media, cool designed sides, and a sweet arrow. Then she sent me a post-it note.
+Once again, like countless other times, my wife comes to the rescue. I sent her a picture of the design and asked how she felt about it. She danced around the truth for a few minutes trying to spare my feelings, and then she told me straight up, "It confuses me." I tried to defend my design and give her a rough idea of what I was going for. She did concede that it looked like a chalkboard, but we both agreed it needed some work. She chatted me some ideas: sweet banner at the top, cool underline for social media, cool designed sides, and a sweet arrow. Then she sent me a post-it note.
 
 <p></p><div class="th"><img src="/images/lauren_postit.jpg" alt="Lauren's Post-it"></div><p></p>
 
