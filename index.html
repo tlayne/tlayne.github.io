@@ -16,70 +16,71 @@
 
     <!-- Custom styles for this template -->
     <link href="css/tim-theme.css" rel="stylesheet">
+      
+    <!-- google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Jura:600' rel='stylesheet' type='text/css'>
   </head>
 
     
     
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-    <div class="navbar-header">
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="#">Timotej's Sandbox</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-        Some NAV Stuff here!
-    </div><!--/.navbar-collapse -->
-    </div>
+          </button>
+          <a class="navbar-brand" href="/index.html">Tim's Sandbox</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="http://blog.timotej.xyz" target="_blank">Blog</a></li>
+            <li><a href="http://blog.timotej.xyz/bio" target="_blank">Bio</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </nav>
-    
-      
-    <div class="jumbotron">
-    <div class="container">
-            <h1>Breaking News Here!</h1>  <!-- possible place for announcements and updates -->
-    </div>
-    </div>
+
       
     <!-- views template here -->  
     <div class="container">
-    <div class="row">
+    <div class="row" style="margin-top: 80px;">
         
     <!-- SIDE NAV TABS -->
     <div class="col-md-3">
-        <ul class="nav nav-tabs verty" role="tablist">
-        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Introduction</a></li>
-        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Something</a></li>
-        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Status</a></li>
-        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Something Else</a></li>
+        <ul class="nav nav-pills nav-stacked" role="tablist">
+        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Profile</a></li>
+        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Slice of Life</a></li>
+        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>Projects</a></li>
+        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-pawn" aria-hidden="true"></span>Currently Playing</a></li>
         </ul>
     </div>
     
     <!-- SIDE NAV TAB VIEWS -->
     <div class="col-md-9">
-    <div class="tab-content">
-        <!-- INTRO -->
+    <div class="tab-content" style="margin-top:15px;">
+        <!-- PROFILE -->
         <div role="tabpanel" class="tab-pane active" id="home">
             <p>Construction in progress! <a href="http://blog.timotej.xyz">Visit my silvrback blog</a>!</p>
         </div>
         
-        <!-- SUBMIT -->
+        <!-- SLICE OF LIFE -->
         <div role="tabpanel" class="tab-pane" id="profile">
-            Is
+            <!-- SnapWidget -->
+            <h3>Future home to an instagram widget!</h3>
         </div>
         
-        <!-- STATUS -->
+        <!-- PROJECTS -->
         <div role="tabpanel" class="tab-pane" id="messages">
-            The
+            <p>Will create an area displaying current coding and maker projects.</p>
         </div>
         
-        <!-- AUDITORS -->
+        <!-- CURRENTLY PLAYING -->
         <div role="tabpanel" class="tab-pane" id="settings">
-            Test
+            <p>Will create a JS plugin to display games I am playing.</p>
         </div>
         
     </div> <!-- END SIDE NAV TAB VIEWS -->
@@ -90,15 +91,19 @@
 
         
         
-      <!-- end instructor template here -->
+      <!-- end instructor template here -->    
         
 <hr>
 <footer>
-<p>&copy; Timothy Smith 2015</p>
+        <ul class="socials">
+            <li><a href="https://www.facebook.com/timothylayne" target="_blank"><img alt="facebook" src="assets/facebook-32-black.png"></img></a></li>
+            <li><a href="https://twitter.com/tlaynes" target="_blank"><img alt="twitter" src="assets/twitter-32-black.png"></img></a></li>
+            <li><a href="https://instagram.com/tlaynes" target="_blank"><img alt="instagram" src="assets/instagram-32-black.png"></img></a></li>    
+<li><a href="https://github.com/tlayne" target="_blank"><img alt="instagram" src="assets/github-32-black.png"></img></a></li> 
 </footer>
 </div> <!-- /container -->
 
-      
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

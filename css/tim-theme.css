@@ -4,45 +4,37 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-
-.verty li {
-  float: none;
-    text-align: center;
-    font-size: 1.4em;
-    height: 50px;
-    border: thin solid black;
+.navbar {
+  font-family: 'Jura', sans-serif;   
 }
 
-.verty li a {
-    margin: -2px;
-    border-radius: 0;
+.socials, .socials li {
+    list-style: none;
+    display: inline-block;
+    float:right;
+    margin: 2px;
+}
+
+
+
+.socials li:hover {
+  border: 1px solid black;   
+  border-radius: 5px;   
+}
+
+.glyphicon {
+  margin-right: 5px;   
+}
+
+.nav-pills a {
     color: black;
+    font-size: 18px;
+    font-family: 'Jura', sans-serif;
+    text-align: center;
 }
 
-.verty li a:hover {
-    border-color: black !important;
-    margin: 0;
-    background-color: #d9534f;
-}
-
-.verty li.active a {
-    border-color: black !important;
-    margin: 0;
-    color: white !important;
-    background-color: #c12e2a !important;
-}
-
-.verty li.active a:hover {
-    border-color: black !important;
-    margin: 0;
-}
-
-.boxy {
-    border: thin solid black;
-    width: 470px;
-    height: auto;
-    padding: 11px;
-    margin: 12px 0 12px 0;
+.nav-pills li.active a {
+  background-color: darkgray !important;   
 }
 
 .btn-default,
