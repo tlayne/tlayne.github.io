@@ -8,6 +8,10 @@
   font-family: 'Jura', sans-serif;   
 }
 
+.navbar-nav li {
+ border-left: 1px solid lightgray;
+}
+
 .socials, .socials li {
     list-style: none;
     display: inline-block;
@@ -35,6 +39,21 @@
 
 .nav-pills li.active a {
   background-color: darkgray !important;   
+}
+
+.prospil p {
+    margin-top: 36px;
+}
+
+.blurb {
+    text-align: center;
+    border: 1px solid lightgray;
+    margin-top: -16px;
+    border-radius: 4px;
+}
+
+.profile h4 {
+  text-align: center;   
 }
 
 .btn-default,
