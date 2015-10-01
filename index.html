@@ -53,9 +53,9 @@
     <div class="col-sm-3">
         <ul class="nav nav-pills nav-stacked" role="tablist">
         <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Profile</a></li>
-        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Slice of Life</a></li>
+        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Life</a></li>
         <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>Projects</a></li>
-        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-pawn" aria-hidden="true"></span>Currently Playing</a></li>
+        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-pawn" aria-hidden="true"></span>Playing</a></li>
         </ul>
     </div>
     
@@ -197,8 +197,7 @@
         
         <!-- SLICE OF LIFE -->
         <div role="tabpanel" class="tab-pane" id="profile">
-            <!-- SnapWidget -->
-            <h3>Future home to an instagram widget!</h3>
+
         </div>
         
         <!-- PROJECTS -->
@@ -264,6 +263,13 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+<script>
+$.get( "http://api.instagram.com/oembed?url=http://instagr.am/p/fA9uwTtkSN/", function( data ) {
+  $( ".result" ).html( data );
+  alert( "Load was performed." );
+});
+</script>
+
   </body>
 </html>
 
