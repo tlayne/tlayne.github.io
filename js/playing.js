@@ -10,7 +10,7 @@ $(document).ready(function() {
         progress: "70%",
         quote: "Can't tell if I am a squid or a kid?",
         boxart: "http://img.photobucket.com/albums/v477/Tshroom/BoxArt/splatoon_us_box_art.jpg",
-        devsite: "http://"
+        devsite: "http://splatoon.nintendo.net"
         },
         {
         title: "Heroes of the Storm",
@@ -18,7 +18,7 @@ $(document).ready(function() {
         progress: "10%",
         quote: "Putting in work on some daily quests. I need all the Diablo characters!",
         boxart: "http://img.photobucket.com/albums/v477/Tshroom/BoxArt/heroes-of-the-storm-starter-pack-pc_10.jpg",
-        devsite: "http://"
+        devsite: "http://us.battle.net/heroes/en/"
         },
         {
         title: "Shovel Knight: Plague of Shadows",
@@ -26,7 +26,7 @@ $(document).ready(function() {
         progress: "5%",
         quote: "My favorite 2D action platformer of all time is back with more content.",
         boxart: "http://img.photobucket.com/albums/v477/Tshroom/BoxArt/Shovel_knight_cover.jpg",
-        devsite: "http://"
+        devsite: "http://yachtclubgames.com/shovel-knight/"
         },
     ];
     
