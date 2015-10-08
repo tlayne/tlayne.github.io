@@ -26,7 +26,28 @@
   border-radius: 5px;   
 }
 
-.glyphicon {
+.game {
+    list-style: none;
+    margin: 15px 30px 15px 0;
+}
+
+.game li {
+    display: inline-block;
+    margin: 0 3px 0 3px;
+}
+
+.game li a {
+    color: black;
+    text-align: center;
+}
+
+.game li a:hover {
+        color: dimgray;
+        text-decoration: none;
+}
+
+
+.fa {
   margin-right: 5px;   
 }
 
@@ -41,14 +62,11 @@
   background-color: darkgray !important;   
 }
 
-.prospil p {
-    margin-top: 36px;
-}
 
 .blurb {
     text-align: center;
     border: 1px solid lightgray;
-    margin-top: -16px;
+    margin-top: -10px;
     border-radius: 4px;
 }
 
